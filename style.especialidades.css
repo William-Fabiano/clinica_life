@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+header {
+    background-color: #00CAD1;
+}
+.topo {
+    width: 1024px;
+    margin: 0 auto;    
+    display: flex;    
+    justify-content: space-between;
+}
+.topo img {
+    width: 120px;
+}
+.topo img:hover{
+    width: 130px;
+    
+}
+
+.topo a {
+   
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+.navegacao {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.navegacao a {
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px solid #84BFBB;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.navegacao a:hover {
+    color: #00CAD1;
+}
+
+h2 {
+    color: #757575;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #757575;
+    padding: 20px 0;
+}
+.descricao{
+    padding-top: 20px;
+}
+
+.container-info {
+    margin: 0 auto;
+    display: flex;
+    width: 1024px;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    flex-shrink: 1;
+
+}
+
+.container-info img {
+    width: 30%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.container-info table {
+border-spacing: 0;
+    font-size: 13px;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+main p {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #999997;
+    width: 56%;
+    padding-bottom: 20px;
+}
+
+th {
+    color: #fff;
+    padding: 10px;
+    background-color: #00CCD3;
+}
+
+td {
+    color: #838383;
+}
+
+tr:nth-child(odd) {
+    background-color: #CDCDCD;
+}
+
+tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
+main{
+    padding-bottom: 50px;
+}
+
+footer{
+    width: 100%;
+    background-color: #0C6E71;
+       
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+footer img{
+    width: 120px;
+    padding: 5px;
+}
+.rodape p{
+    width: 100%;
+    text-align: center;
+    color:#fff;
+}
+@media (max-width:425px){
+   .container{
+    width: 100%;
+   }
+   section{
+    width: 100%;
+    padding: 10px 0;
+   }
+   .topo nav{
+    text-align: center;
+    padding: 10px 0;
+    }
+    .topo figure{
+        border-bottom: 1px solid #00B2BA;
+    }
+    .navegacao a{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    h2{
+        font-size: 18px;
+        padding: 3px 0;
+    }
+    h3{
+        padding-top: 10px;
+    }
+    .descricao{
+        padding-top: 2px;
+    }
+    .container-info img{
+        display: none;
+    }
+    .container-info table{
+        width: 100%;
+    }
+  .container-info{    
+    margin-bottom: 120px;
+  }
+    main p{
+        font-size: 13px;
+        line-height: 16px;
+        width: 100%;
+    }
+   
+    .tabela th, .tabela td{
+        text-align: left;
+        padding: 5px;
+        }
+       
+       
+        .rodape p{
+            font-size: 10px;
+            width: 100%;
+            text-align: center;
+        }    
+   }
+   @media (min-width:426px) and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .topo img{
+        width: 90px;
+    }
+.topo{
+    padding: 5px;
+    width: 100%;
+}
+.topo a{
+    font-size: 13px;
+    padding-left: 5px;
+}
+.navegacao a{
+    font-size: 16px;
+    line-height: 25px;
+}
+h2{
+    
+    
+    font-size: 22px;
+    padding: 20px 0;
+}
+h3{
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.descricao{
+    padding-top: 10px;
+    
+}
+.container-info{
+    width: 100%;
+    margin-bottom: 160px;
+    
+}
+.container-info img{
+    display: none;
+}
+.container-info table{
+    text-align: left;
+    width: 100%;
+    }
+    th, td{
+        font-size: 14px;
+        padding: 8px;
+    }
+
+main p{
+    font-size: 14px;
+    width: 100%;
+    line-height: 18px;
+}
+footer{
+    margin-top: 15px;
+}
+   }
+   @media (min-width:769px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .topo{
+        width: 100%;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    main p{
+        font-size: 18px;
+        width: 60%;
+    }
+    .container-info{
+        width: 100%;
+        padding: 0 5px;
+    }
+    th, td{
+        font-size: 15px;
+        text-align: left;
+        padding: 5px;
+    }
+   }

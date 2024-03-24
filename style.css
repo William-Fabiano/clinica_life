@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #00CAD1;
+}
+
+.topo img {
+    width: 120px;
+}
+
+.topo {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo a {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.topo a:hover {
+    font-size: 16px;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("assets/recepcao.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    font-size: 500px;
+    font-weight: 400;
+    width: 100%;
+    color:#fff;
+    line-height: 50px;
+    position: absolute;
+    top: 48%;
+    left: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #7C777B;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sobre {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    color: #999393;
+}
+
+.apresentacao {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao img {
+    padding-right: 25px;
+}
+
+.apresentacao h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #999393;
+    font-weight: 500;
+}
+
+.apresentacao ul {
+    font-size: 15px;
+    padding-left: 45px;
+    line-height: 28px;
+    color: #999393;
+}
+
+.multiespecialidades {
+    text-align: center;
+}
+.multiespecialidades a{
+    text-decoration: none;
+}
+.multiespecialidades p:hover{
+    font-size: 16px;
+    color:#000;   
+}
+
+h3 {
+    color: #7C777B;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.atendimento {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.atendimento p{
+    font-size: 15px;
+    color: #999393;
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 40px;
+}
+
+.tratamento {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 15px #7C777B;
+}
+
+.tratamento p {
+    padding: 10px;
+    font-size: 15px;
+    color: #999393;
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    background: #00CACE;
+    border: none;
+}
+button:hover{
+    border: 3px solid #00CACE;
+    background-color:#00CACE;
+    opacity: 0.8;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+button a:hover{
+    color: #00CACE;
+    color: #000;
+}
+.contato{
+    text-align: center;
+}
+.informacoes  {
+    text-align: center;
+    width: 47%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #999393;
+    padding-bottom: 15px;
+}
+span{
+    color: #746F73;
+    font-weight: 600;
+}
+iframe{
+    width: 98%;
+    padding-bottom: 50px;
+}
+footer{
+    width: 100%;
+    background: #0C6E71;
+    text-align: center;
+}
+footer img{
+    width: 120px;
+    padding: 5px;
+}
+.rodape p{
+    color: #fff;
+    font-size: 13px;
+    line-height:2px;
+    padding-bottom: 40px;
+}
+@media (max-width:425px){
+.topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;    
+}
+.links {
+    padding-top: 10px;
+border-top: 1px solid #7C777B;
+padding-right: 17px;
+}
+.banner{
+width: 100%;
+height: 200px;
+background-image: url(./assets/recepcao.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+ .titulo h1{
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+    color:#fff;
+    line-height: 25px;
+    position: absolute;
+    top: 45px;
+    left: 8px;
+}
+p{
+    line-height: 25px;
+}
+.figura {
+    display: none;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (max-width:768px){
+    .topo{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding-bottom: 10px;    
+    }
+   .banner{
+    width: 100%;
+    height: 300px;
+    background-image: url(./assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    .titulo h1{
+        font-size: 35px;
+        font-weight: 400;
+        width: 100%;
+        color:#fff;
+        line-height: 38px;
+        position: absolute;
+        top: 40%;
+        left: 5px;
+    }
+    .apresentacao img{
+        display: none;
+    }
+    p{
+        line-height: 23px;
+    }
+    .fotos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;        
+        }    
+}
+@media (max-width:1024px){
+    .topo{
+        display: flex;
+        padding: 0px 30px;
+        align-items: center;
+        justify-content:space-between;
+        padding-bottom: 10px;    
+    }
+   .banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    .titulo h1{
+        font-size: 38px;
+        font-weight: 400;
+        width: 100%;
+        color:#fff;
+        line-height: 35px;
+        position: absolute;
+        top: 40%;
+        left: 20px;
+    }
+    .sobre p {
+        width: 100%px;
+    }
+    .fotos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    p{
+        text-align: center;
+        line-height: 23px;
+    }
+    .apresentacao {
+        margin-left: 40px;
+    }
+    h2, h3{
+        text-align: center;
+    }
+    .informacoes p{
+        width:100%;
+    }
+}
+@media (min-width:1024px){
+    .topo{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding-bottom: 10px;    
+    }
+   .banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    h1{
+        font-size: 38px;
+        font-weight: 400;
+        width: 60%;
+        color:#fff;
+        line-height: 45px;
+        position: absolute;
+        top: 40%;
+        left: 20px;
+    }
+    p {
+        line-height: 20px;
+        text-align: center;
+    }
+    .fotos p{
+        width: 100%;
+        text-align: center;
+    }
+    footer p{        
+        margin: 0 auto;
+        text-align: center;
+    }
+}
